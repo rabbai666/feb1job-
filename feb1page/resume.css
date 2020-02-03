@@ -1,0 +1,158 @@
+body {font-family: Arial, Helvetica, sans-serif;
+       background-image: url(bgresume2.png);
+       background-repeat: repeat;
+   }
+
+.icon-bar {
+  width: 14em;
+  background-color: #fcfafa;
+    height: 100%; /* This enables full height */
+    position: fixed; /* The position will be constant */
+    overflow: auto; 
+ 
+}
+.icon-bar a {
+  display: block;
+  text-align: left;
+  padding: 25px;
+  transition: all 0.3s ease;
+  color: #333131; /* nav bar text*/
+  font-size: 14px;
+  text-decoration: none;
+  border: 3px solid #fcfafa;
+  border-right-color: #ccc8c8;
+   
+}
+img:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 140, 186, 0.5);
+}
+
+.icon-bar a:hover {
+  background-color: #fff;
+}
+
+.active {
+  background-color: #fcfafa;
+}
+
+.content {
+  margin-left: 7.5em;
+  font-size: 30px;
+}
+
+.hero-image {
+  background-image: url("andrew.jpg");
+  background-color: #cccccc;
+  height: 25em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  float: top-left;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.textimage {
+	padding: 3em 0em 0em 13em;
+}
+
+.textwithcolor {
+	background-color: #737574;
+	
+	padding: 1px;
+}
+
+.line {
+	border: 0px solid red;
+	border-bottom-width: 3px;
+	border-bottom-color: #737574;
+	border-style: 
+}
+
+.h2inblue {
+	background-color: #737574;
+   border: 25px solid #737574;
+padding: 10px 0px 10px 15px; 
+margin-top: 0px;
+color: white;
+
+}
+blockquote {
+	padding-left: 20px;
+	border-left: 10px solid #e3bf49;
+	color: #e3bf49;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	margin-left: 8.5em;
+   font-size: 30px;
+}
+
+.pabout {
+	padding: 20px;
+	text-align: justify;
+	margin-top: 0px;
+	color: #333131;
+}
+.pre{
+	
+}
+
+a {
+  text-decoration: none;
+	color: #333131;
+}
+.expsec {
+	background-color: white;
+	margin: 4em;
+	margin-top: 2em;
+	padding:0px;
+	font-size: 20px;
+}
+.exphead {
+	padding-bottom: 15px;
+	border-bottom: 2px solid #737574;
+
+}
+.expspan1 {
+	padding: 40px;
+	padding-bottom: 20px;
+	
+
+}
+.expspan2 {
+	float: right;
+	padding: 20px
+}
+/*img {
+	padding:20px;
+}*/
+
+.projcont {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 43em;
+	margin-bottom: 56em;
+	background-color:white;
+	font-size: 20px;
+}
+.h4inter {
+	margin-top: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px; 
+}
+.pinter {
+	margin-top: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	text-align: left;
+}
+.flex-container {
+  display: flex;
+}
